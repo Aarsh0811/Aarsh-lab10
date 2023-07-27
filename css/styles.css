@@ -52,12 +52,6 @@ section p {
 
 section ul {
   margin-top: 0;
-  padding-left: 0; /* Remove default padding from unordered list */
-}
-
-section li {
-  list-style: none; /* Remove bullet points */
-  margin-left: 1rem; /* Add some space before the list items */
 }
 
 h2 {
