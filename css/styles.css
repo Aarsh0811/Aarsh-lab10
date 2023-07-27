@@ -22,7 +22,7 @@ header p {
 /* Add styles for the new sections */
 section {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as needed */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust minmax values as needed */
   gap: 20px; /* Add some spacing between the sections */
   margin-bottom: 5rem;
 }
