@@ -36,6 +36,28 @@
         "candy sprinkles"
       ],
       "image": "strawberry-sprinkle.svg"
+    },
+    {
+      "name": "Choco Caramel Crunch",
+      "calories": 450,
+      "type": "ice cream",
+      "ingredients": [
+        "chocolate fudge",
+        "caramel swirls",
+        "toffee bits"
+      ],
+      "image": "choco-caramel-crunch.svg"
+    },
+    {
+      "name": "Mango Tango Tango",
+      "calories": 320,
+      "type": "sorbet",
+      "ingredients": [
+        "mango purée",
+        "lime zest",
+        "tamarind sauce"
+      ],
+      "image": "mango-tango-tango.svg"
     }
   ]
 }
