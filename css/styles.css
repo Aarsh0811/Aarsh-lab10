@@ -1,3 +1,9 @@
+/* 
+	AARSH PARIMAL PATEL
+	200520260
+	LAB-10
+*/
+
 @charset "utf-8";
 
 body {
@@ -47,7 +53,6 @@ section p {
   margin: 5px 0;
   white-space: nowrap; /* Prevent text from wrapping */
   overflow: hidden; /* Hide any overflow */
-  text-overflow: ellipsis; /* Show an ellipsis (...) for truncated text */
 }
 
 section ul {
