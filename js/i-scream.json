@@ -38,24 +38,24 @@
       "image": "strawberry-sprinkle.svg"
     },
     {
-      "name": "Choco Caramel Crunch",
+      "name": "Limey Mime",
       "calories": 450,
       "type": "ice cream",
       "ingredients": [
-        "chocolate fudge",
+        "Lime pulp",
         "caramel swirls",
-        "toffee bits"
+        "googly getts"
       ],
       "image": "ice-cream-xtra1.svg"
     },
     {
-      "name": "Mango Tango Tango",
+      "name": "Buttery Butterscotch",
       "calories": 320,
       "type": "sorbet",
       "ingredients": [
-        "mango purée",
+        "fresh butterscotch",
         "lime zest",
-        "tamarind sauce"
+        "chocolate chips"
       ],
       "image": "ice-cream-xtra2.svg"
     }

@@ -22,7 +22,7 @@ header p {
 /* Add styles for the new sections */
 section {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust minmax values as needed */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust minmax values as needed */
   gap: 20px; /* Add some spacing between the sections */
   margin-bottom: 5rem;
 }
@@ -31,7 +31,10 @@ section article {
   border: 1px solid black;
   box-shadow: 0 2px 14px grey;
   padding: 2.5%;
-  word-wrap: break-word; /* Prevent words from overflowing */
+  display: flex; /* Use flex to put content in a single line */
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  text-align: center;
 }
 
 article img {
@@ -42,6 +45,9 @@ article img {
 
 section p {
   margin: 5px 0;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide any overflow */
+  text-overflow: ellipsis; /* Show an ellipsis (...) for truncated text */
 }
 
 section ul {
